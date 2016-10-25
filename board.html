@@ -1,0 +1,47 @@
+<!-- Luisa Rojas-Garcia (100518772), Jose Miguel Mendez (100468440) -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tic Tac Toe</title>
+        <link type="text/css" rel="stylesheet" href="styles/board.css" />
+        <script src="events.js"></script>
+    </head>
+    <body>
+        
+        <div id='turn'>Turn: X</div>
+        
+        <table id="board" class="pointerCursor" >
+            <tr>
+                <td id="top-left" class="hover"></td>
+                <td id="top-centre" class="hover"></td>
+                <td id="top-right" class="hover"></td>
+            </tr>
+            <tr>                  
+                <td id="centre-left" class="hover"></td>
+                <td id="centre-centre" class="hover"></td> 
+                <td id="centre-right" class="hover"></td>
+            </tr>
+            <tr>                    
+                <td id="bottom-left" class="hover"></td>
+                <td id="bottom-centre" class="hover"></td> 
+                <td id="bottom-right" class="hover"></td>
+            </tr>
+        </table>
+        
+        <div id='warning'></div>
+        
+
+        <p>Score</p>
+        <div id="score">
+            
+            <div id="xscore"><b>Player X</b>: 0</div>
+            <div id="oscore"><b>Player O</b>: 0</div>
+        </div>
+        
+        <div id="button-div" align="center">
+            <button id="new-round" class="pointerCursor">New Round</button>
+            <button id="new-game" class="pointerCursor">New Game</button>
+        </div>
+        
+    </body>
+</html>

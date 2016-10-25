@@ -1,0 +1,183 @@
+/* Luisa Rojas-Garcia (100518772), Jose Miguel Mendez (100468440) */
+table {
+
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+#top-left {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+}
+
+#top-centre {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+}
+
+#top-right {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+}
+
+#centre-left {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+}
+
+#centre-centre {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#centre-right {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+}
+
+#bottom-left {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+}
+
+#bottom-centre {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+}
+
+#bottom-right {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+}
+
+table tr, td {
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+    font-size: 80px;
+    text-align: center;
+    /*cursor: pointer;*/
+}
+
+.won {
+    background-color: lightgreen;
+}
+
+.pointerCursor {
+    cursor: pointer;
+}
+
+.tied {
+    background-color: lightgray;
+}
+
+.hover:hover {
+    background-color: lightblue;
+}
+
+#turn {
+    max-width: 568px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#warning {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    height:15px;
+    margin-top: 15px;
+    max-width: 603px;
+}
+
+.transText {
+    color: transparent;
+}
+
+button {
+    
+	background-color:lightblue;
+    border-style: none;
+    font-family: sans-serif;
+	font-size:17px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: lightpink;
+}
+
+#button-div {
+    max-width: 600px;
+}
+
+#score {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+#xscore, #oscore {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+
+}
